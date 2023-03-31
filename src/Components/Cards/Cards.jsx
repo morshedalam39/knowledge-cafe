@@ -5,7 +5,7 @@ import SideCard from '../SideCard/SideCard';
 const Cards = () => {
 
     const [card , setCard] = useState([]);
-    // console.log(card);
+   
     const [show, setShow] = useState([]);
     const [time, setTime] = useState(0);
 
@@ -19,7 +19,7 @@ const Cards = () => {
 
 
     const addToBookMark = (items) => {
-        // console.log(items.id);
+     
         const findBookMark = show.find((item) => items.id === item.id);
         if (findBookMark) {
           Swal.fire({
@@ -37,7 +37,7 @@ const Cards = () => {
       const countTotalReadTime = (newTime) => {
         const storeTimeData =time + parseInt(newTime);
         setTime(storeTimeData);
-        // console.log(storeTimeData);
+      
       };
     
     
