@@ -50,8 +50,8 @@ const Cards = () => {
         </div>
   
         <div >
-          <div className="border-2 border-violet-500 rounded-md p-6 mb-5">
-            <h2 className="text-2xl text-violet-700	font-bold">
+          <div className="border-2 border-sky-500 rounded-md p-6 mb-5">
+            <h2 className="text-2xl text-sky-700	font-bold">
               Spent Time on read : {time}
             </h2>
           </div>
