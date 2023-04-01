@@ -6,16 +6,21 @@ import Header from './Components/Header/Header'
 
 import SideCard from './Components/SideCard/SideCard'
 import Cards from './Components/Cards/cards'
+import Question from './Components/Question/Question'
+
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+
 
   return (
     <div className="App w-10/12 mx-auto">
      <Header></Header>
     
       <Cards></Cards>
+    <Question></Question>
+
+      
   
 
      

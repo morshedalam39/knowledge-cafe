@@ -3,11 +3,16 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
-  <div className="flex-1">
+            <div className="navbar bg-base-100 flex justify-between">
+  <div className="">
     <a className="btn btn-ghost normal-case text-xl">Knowledge Cafe</a>
   </div>
-  <div className="flex-none">
+  <div className='gap-8 text-lg font-semibold'>
+    <a href="">home</a>
+    <a href="">home</a>
+    <a href="">home</a>
+  </div>
+  <div className="">
     
     <div className="dropdown dropdown-end">
       <label  className="btn btn-ghost btn-circle avatar">

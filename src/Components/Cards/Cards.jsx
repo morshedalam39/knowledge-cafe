@@ -26,13 +26,15 @@ const Cards = () => {
             icon: "error",
             title: "Oops...",
             text: "Item is already added!",
-            footer: '<a href="">Why do I have this issue?</a>',
+            
+
           });
         } else {
           const SideCardShow = [...show, items];
           setShow(SideCardShow);
         }
       };
+
     
       const countTotalReadTime = (newTime) => {
         const storeTimeData =time + parseInt(newTime);
@@ -55,7 +57,7 @@ const Cards = () => {
           </div>
           <div
             className="border-2
-           border-slate-300 sm:h-full lg:h-3/5 rounded-md p-6 bg-gray-100"
+           border-slate-300   rounded-md p-5 bg-gray-100"
           >
             <h2 className="text-2xl font-bold">
               Bookmarked Blogs : {show.length}
